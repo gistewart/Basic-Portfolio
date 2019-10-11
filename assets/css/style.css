@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .header {
@@ -31,7 +32,6 @@
 .nav-links {
     margin-top: 80px;
     float: right;
-    font-family: arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -50,20 +50,20 @@ a {
 
 .container-2 {
     background-color: white;
-    height: 400px;
+    height: 480px;
     width: 960px;
-    margin: 30px auto 0 auto;
+    margin: 0px auto 0px auto;
 }
 
-.about-me {
+.sub-heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 22px;
     text-align: left;
-    padding-top: 30px;
-    height: 70px;
+    padding-top: 20px;
+    height: 60px;
     width: 900px;
-    margin: 30px auto 20px auto;
+    margin: 10px auto 20px auto;
     border-bottom: 1px solid #ccc;
 }
 
@@ -76,20 +76,75 @@ a {
 
 .text {
     clear: both;
-    font-family: arial, "Helvetica Neue", Helvetica, sans-serif;
     padding-left: 30px;
     line-height: 1.8;
     font-size: 14px;
     padding-right: 30px;
 }
 
-.footer {
+.container-port-img {
+    position: relative;
+    height: 120px;
+    width: 300px;
+    margin: 0px 0px 15px 30px;
+    float: left;
+}
+
+.port-img {
+    clear: both;
+    height: 120px;
+    width: 160px;
+}
+
+.port-banner {
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 9px;
+}
+
+label {
+    padding-left: 30px;
+    margin: 8px 0;
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+input[type=text] {
+    width: 900px;
+    padding: 10px;
+    margin: 0px 0px 15px 30px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    width: 100px;
+    padding: 10px;
+    margin: 0px 0px 15px 30px;
+    display: block;
+    border: 1px solid #ccc;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+#message {
+    height: 100px;
+}
+
+footer {
     clear: both;
     height: 50px;
     background-color: #666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
-    font-family: arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 10px;
     color: white;
     position: relative;
